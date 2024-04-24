@@ -13,12 +13,12 @@
     "esModuleInterop": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "strict": true,
     "composite": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
     }
   },
-  "include": ["vite.config.ts", "src"]
+  "include": ["vite.config.ts", "src"],
+  "exclude": ["node_modules"]
 }
